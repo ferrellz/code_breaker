@@ -1,0 +1,33 @@
+* {
+	margin:0px auto;
+	display:block;
+	font-family: Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+#encText{
+	width: 32em; 
+	height: 16em;
+	border-radius: 1em;
+	resize: none;
+}
+
+p{
+	text-align: center;
+}
+
+.result{
+	background-color: lightblue;
+	width: 32em;
+	height: 4em;
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+.resultText{
+	width: 32em;
+	resize: none;
+}
+
+html {
+    overflow: scroll;
+} 
